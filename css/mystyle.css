@@ -7,15 +7,15 @@
 body{
      font-family: 'Oxygen', sans-serif;
 	font-size:2em;
-	color: #557c3e;
-	background-color: #611221;
+	color: darkgreen;
+	background-color: gray;
 }
 header{
-	background-color: #f6b319;
+	background-color: white;
 	padding:10px;
 }
 header img{
 	float: left;
-	background-color: #f6b319;
+	background-color: white;
 	padding:10px;
 }
