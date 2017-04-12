@@ -1,0 +1,21 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+     font-family: 'Oxygen', sans-serif;
+	font-size:2em;
+	color: #557c3e;
+	background-color: #611221;
+}
+header{
+	background-color: #f6b319;
+	padding:10px;
+}
+header img{
+	float: left;
+	background-color: #f6b319;
+	padding:10px;
+}
