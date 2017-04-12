@@ -1,1 +1,1 @@
-# restaurant_site
+Please check gh-pages branch.
