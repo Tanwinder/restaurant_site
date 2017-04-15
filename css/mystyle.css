@@ -13,9 +13,18 @@ body {
 	background-color: #61122f;
 }
 #header-nav {
+	position: relative;
+	height: 100px;
 	background-color: #f6b319;
 	border-radius: 0;
 	border: 0;
+}
+#header-nav .container {
+	position: fixed;
+	z-index: 10;
+	height: auto;
+	background-color: #f6b319;
+	width: 100%;
 }
 #logo-img {
 	background: url('../images/sidhu-logo2.png') no-repeat;
@@ -24,7 +33,7 @@ body {
 	margin: 10px;
 }
 .navbar-brand {
-	padding-top: 25px;
+	padding-top: 14px;
 }
 .navbar-brand h1 {
 	/*restaurant name*/
@@ -324,7 +333,13 @@ body {
 
 @media (min-width: 768px) {
 	.navbar-brand h1 {
-		font-size: 1em;
+		font-size: 2em;
+	}
+	#logo-img{
+		margin-top: -10px;
+	}
+	.container > .navbar-header{
+		height: 100px;
 	}
 	.container .jumbotron {
 		/*background: url("../images/Restaurant-main.jpg") no-repeat;*/
@@ -346,7 +361,7 @@ body {
 
 @media (min-width: 992px) {
 	.navbar-brand h1 {
-		font-size: 1.2em;
+		font-size: 1.8em;
 	}
 }
 /*     for large devices    */
