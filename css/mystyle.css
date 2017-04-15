@@ -61,7 +61,8 @@ body {
 	text-align: center;
 }
 #nav-list a:hover {
-	background: #e7e7e7;
+	background: lightgray;
+	border-radius: 40%;
 }
 #nav-list a span {
 	font-size: 1.8em;
