@@ -1,12 +1,18 @@
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
     position: relative;
-    margin: auto;
 }
 
 .mySlides {
     display: none;
+    overflow: hidden;
+}
+.mySlides img{
+    height: 555px;
 }
 
 /* Next & previous buttons */
@@ -33,6 +39,7 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+    text-decoration: none;
 }
 
 /* Caption text */
@@ -73,10 +80,11 @@
 
 /* Fading animation */
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+    /*-webkit-animation-name: fade;*/
+    /*-webkit-animation-duration: 1.5s;*/
+    /*animation-name: fade;*/
+    /*animation-duration: 1.5s;*/
+    opacity: 1;
 }
 
 @-webkit-keyframes fade {
