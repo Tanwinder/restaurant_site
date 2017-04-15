@@ -7,7 +7,6 @@ var tsidhu = new function(){
         diff = headerTopHeight - scrollTop;
 
         if(diff <= 0){
-            console.log(diff);
             $('#header-nav .container').css({"position" : "fixed" , "top" : "0"});
         } else {
             $('#header-nav .container').css('position' , 'relative');
