@@ -215,13 +215,17 @@ body {
 
 @media (max-width: 767px) {
 	.navbar-brand {
-		padding-top: 10px;
-		height: 80px;
+		padding-top: 0;
+		height: 10px;
+		padding-bottom: 0;
 	}
 	.navbar-brand h1 {
 		font-size: 5vw;
 		color: #557c3e;
-		margin-top: 10px;
+		margin-top: 3px;
+	}
+	.navbar-toggle{
+		margin-top: 0;
 	}
 	.navbar-brand hp {
 		font-size: .6em;
