@@ -30,6 +30,13 @@
     border-radius: 0 3px 3px 0;
 }
 
+.centered-dots {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right:0;
+}
+
 /* Position the "next button" to the right */
 .next {
     right: 0;
@@ -44,11 +51,11 @@
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
+    color: lavender;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: 15px;
     width: 100%;
     text-align: center;
 }
@@ -75,7 +82,7 @@
 }
 
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: #61122f;
 }
 
 /* Fading animation */
